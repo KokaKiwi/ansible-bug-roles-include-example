@@ -1,0 +1,6 @@
+---
+- include: otherdir/b.yml
+  with_items:
+    - a
+    - b
+    - c
